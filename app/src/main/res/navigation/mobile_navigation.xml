@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cargar">
+
+    <fragment
+        android:id="@+id/nav_cargar"
+        android:name="com.inmobiliaria.examenseptiembrefinal.ui.cargar.CargarFragment"
+        android:label="Cargar Producto"
+        tools:layout="@layout/fragment_cargar" />
+
+    <fragment
+        android:id="@+id/nav_listar"
+        android:name="com.inmobiliaria.examenseptiembrefinal.ui.listar.ListarFragment"
+        android:label="Listado de Productos"
+        tools:layout="@layout/fragment_listar" />
+
+</navigation>
